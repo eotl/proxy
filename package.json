@@ -1,0 +1,16 @@
+{
+  "name": "eotl-proxy",
+  "version": "0.1.0",
+  "homepage": "http://eotl.github.io/proxy",
+  "private": false,
+  "dependencies": {
+    "iconv-lite": "^0.4.24",
+    "nodemon": "^1.18.9",
+    "uglify-js": "^3.4.9",
+    "websocket": "^1.0.28"
+  },
+  "scripts": {
+    "start": "node wsproxy.js",
+    "server": "nodemon wsproxy.js"
+  }
+}
